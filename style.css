@@ -8,7 +8,7 @@
     font-family: "Inter", sans-serif;
     
 }
-h1,h2,h3,h4,h5,h6,a,span,ul,li,ol{
+h1,h2,h3,h4,h5,h6,a,span,ul,li,ol,p{
     list-style: none;
     text-decoration: none;
     margin: 0;
@@ -60,5 +60,155 @@ header{
 
 .navar-button a {
     color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* navbar end */
+
+
+/* banner start */
+
+#banner {
+    
+    background: url("assets/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    padding: 100px 0 200px ;
+
+}
+
+.banner-top-button-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-top-btn{
+    height: 36px;
+    width: 250px;
+    background-color: #FFFFFF;
+    color: #469165;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-top-btn .circle{
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: #469165;
+    
+    
+}
+.outer-circle{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #7bd09e;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-top-btn p{
+    font-size: 16px;
+    font-weight: 500;
+}
+.banner-button{
+    display: flex;
+    gap: 15px;
+}
+.banner-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     margin-top: 20px;
+}   
+.banner-txt .white-txt{
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 0 20px;
+   
+}  
+.banner-txt .green-txt{
+    font-size: 72px;
+    font-weight: 700;
+    color: #30B868;
+}  
+.banner-txt p{
+    font-weight: 400;
+    font-size: 18;
+    color: #FFFFFF;
+    line-height: 30px;
+    padding: 25px 0;
+}
+.banner-txt .first-p{
+    padding: 0 18px;
+}    
+    
+.banner-button .btn-1{
+    height: 45px;
+    width: 240px;
+    padding-right: 15px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-button .btn-2{
+    height: 45px;
+    width: 200px;
+    padding-left:15px ;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.banner-button .btn-1 a,
+.banner-button .btn-2 a{
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.banner-button .btn-1:hover,
+.banner-button .btn-2:hover{
+    background-color: #469165;
+    border: none;
+}
+.banner-button .btn-1 i{
+    color: white;
+    cursor: pointer ;
+}    
+.banner-button .btn-2 i{
+    color: white;
+    cursor: pointer ;
+    background: none;
+}    
+   
+
+
+
+
+/* banner end */
