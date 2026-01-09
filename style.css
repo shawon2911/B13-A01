@@ -238,7 +238,7 @@ header{
 } 
 .card-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 16px;
     margin-top: 36px;
 }   
@@ -288,10 +288,67 @@ header{
     padding: 0 21px;
 }    
 
+/* notes part end */
 
     
+/* knowledge part start */
+#knowledge{
+    padding: 100px 0;
+}
+.knowledge-container{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.knowledge-image img{
+    height:600px ;
+    width:600px ;
+    border-radius: 12px;
+}
+.knowledge-content h5{
+    font-weight: 500;
+    font-size: 18px;
+    color: #469165; 
+    margin-bottom: 20px;
+}
+
+.knowledge-content h1{
+    font-weight: 700;
+    font-size: 48px;
+    color:  #001931;
+    margin-bottom: 16px;
+}
+.knowledge-content p{
+    font-weight: 400;
+    font-size: 16px;
+    color:  #001931;
+    line-height: 20px;
+    color: #627382;
+    
+
+}
+.key-points{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    
+}
+.key-points-grp{
+    padding: 20px 0;
+}
+.key-points p{
+    font-weight: 500;
+    font-size: 16px;
+    color:  #001931;
+    line-height: 20px;
+    color:#001931;
 
 
 
-/* notes part end */
+}
+
+
+/* knowledge part end */
+
+
 
