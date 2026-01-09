@@ -213,7 +213,7 @@ header{
 /* notes part start */
 #notes{
     background-color: #ebe9e9;
-    padding: 50px 0;
+    padding-top: 50px;
 }
 .notes-txt{
     display: flex;
@@ -240,17 +240,21 @@ header{
     display: flex;
     justify-content: center;
     gap: 16px;
+    margin-top: 36px;
 }   
 .card-box{
     background-color: #FFFFFF;
     box-shadow: 0px 0px 8px 0px #0000000F;
     border-radius: 8px;
+    padding: 0px 11px 22px 10px;
+
     
 }
 .card-icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 75px 58px 14px 58px;
 }    
 .icon-circle{
     height: 60px;
@@ -261,7 +265,30 @@ header{
     justify-content: center;
     align-items: center;
 
+}
+.card-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-txt h4{
+    font-size: 24px;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 15px;
+
 }    
+.card-txt p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#627382;
+}    
+.card-txt .title-break{
+    padding: 0 21px;
+}    
+
+
     
 
 
