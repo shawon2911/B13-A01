@@ -207,8 +207,14 @@ header{
     background: none;
 }    
    
-
-
-
-
 /* banner end */
+
+/* notes part start */
+.notes-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* notes part end */
+
